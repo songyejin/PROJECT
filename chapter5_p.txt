@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(void)
+{
+    int a = 0, b = 0;
+
+    if([       ])     //If 'a' is greater than 0, it is assigned to 'b'
+    {
+        b = 1;
+    }
+    else if([       ])     //If 'a' is 0, 2 is assigned to 'b'
+    {
+        b = 2;
+    }
+    else
+    {
+        b = 3;
+    }
+
+    printf("b : %d\n", b);
+
+    return 0;
+}
+
+    
+
