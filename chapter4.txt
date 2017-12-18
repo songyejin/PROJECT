@@ -1,0 +1,47 @@
+CHAPTER4. OPERATOR
+Learning an operator is learning instruction.
+An order is an operator.
+Data that is intended to be operated by operator is called operand.
+You don't have to be nervous because it's similar to mathematical symbols.
+~
+CHAPTER4. OPERATOR
+1 Arithmetic Operator
+These are all arithmetic operators. Use two operands. 
+  +  Plus
+  -  Minus
+  *  Multiplication
+  /  Division
+  %% Rest
+  ex) a+b a-b
+~
+CHAPTER4. OPERATOR
+2 Assignment Operator
+Use =symbol. It saves the result of the right expression in the left variable.
+(Never interpret it as the same thing! An operator who means the same will soon learn.)
+ ex)a=b
+~
+CHAPTER4. OPERATOR
+3 ++ Operator and -- operator
+These operators Increse or decrease the operand 1 by 1
+Both use one operand.
+These used  in front of the operand, or can be used back of the operand.
+If ++operator used in front of the operand, it increased and ready for other operator.
+And if ++ operator used back of the operand, it ready for other operator and increased. 
+++
+--
+ex) ++a a++ --a a--
+~
+CHAPTER4. OPERATOR
+4 Relational Operator
+When you need to execute a command according to the conditions, what you need is a relational operator.
+a<b If a is less than b, 1(True). If not, 0(False).
+a=<b If a is less or same as b, 1(True). If not, 0(False).
+a==b If a is same as b, 1(True). If not, 0(False).
+a!=b If a is different from b, 1(True). If not , 0(False).
+~
+CHAPTER4. OPERATOR
+5 Logical Operator
+a&&b (AND)  If all true, 1(True). If not, 0(False).
+a||b (OR)  If either of them is true, 1(True). If not, 0(False).
+!a (NOT)  If a is false, 1(True). If not, 0(False).
+$
