@@ -1,0 +1,34 @@
+CHAPTER3. VARIABLE  //pg.1
+
+3.1 Variable
+
+The method of declaring variables is simple.
+You can use the name of the data type and the variables that match the type of data.
+For example, the variable to which you want to store an integer is declared as follows
+ int a;  //int-type variable declaration.
+This sentence tells the compiler that the space to store the integer is 4 bytes in memory and that it will be written by a name called A.
+After you have declared a variable, you can save, calculate, or use the value with the variable name.
+~
+The variable declaration location must follow the following  rules.   //pg2
+*Declares from the blocks in curly brackets to use them from the location of the blocks to the end of the block.
+*Depending on the compiler, the declaration location of the variable may be limited.
+*If the data type is the same, you can simultaneously declare more than one variable.
+*The substitution operator stores the value to the right of the variable to the left of the operator.
+*The variable is the storage space on the left side of the substitution operator and the value is on the right.
+
+GARBAGE VALUE AND INITIALIZAION
+*When you proclaim a variable, the garbage value is initially stored.
+*Initialization is the first value to be introduced to eliminate waste prices.
+*Using an uninitialized variable outputs a warning message."); 
+---------------------------------------------------
+warning C4700: Uses an uninitiated region variable.
+---------------------------------------------------
+~
+3.2 DATA INPUTa    //pg3
+
+Use the scanf function when entering data into a variable from the keyboard.
+*Use a transform character that matches the shape of the variable, and add an '&' to the variable that you want to enter. 
+*The scanf function may not be able to enter data if the conversion character and input type are different.
+When entering a string, do not add an & symbol to the name of the array. 
+If you enter a string that is larger than the size of the char array, the program may end abnormally.
+$
