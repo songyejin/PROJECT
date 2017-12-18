@@ -1,0 +1,42 @@
+CHAPTER1. C PROGRAMMIG.
+
+1.1 THIS IS C LANGUAGE.
+C Language is a programming language.
+And the programming language is a communication medium used to communicate with computers.
+*What is a programming language?.
+It means the promised language that humans and compilers can understand.
+*What is the role of the compiler?.
+It translates programs written in programming languages into machine language so that the computer can understand them.
+In addition, the translation itself is called compilation.
+Advantages of C language.
+1.The c language has process-oriented characteristics. It does not take long to get used to it.
+2.Programs written in the c language are portable.
+3.Programs implemented in the c language show good performance.
+~
+1.2 Completion process of C program   //pg2
+
+Overall understanding of C program completion process
+                  1.programming
+                       l
+                       V
+    --------->    2.compile
+   l                   l
+   l                   V
+edit program <-(if yes)error occurred
+   ^                   l(if no)
+   l                   V
+   l              3.link
+   l                   l
+   l                   V
+    --------(if yes)error occurred
+                       l(if no)
+                       V
+                  4.create an executable file
+~
+1.3 Entering and Compiling the Source Code //pg3
+
+Now let's write our first program. 
+Simply enter the program code that follows.
+Note that you do not know anything about C yet, so you do not have the ability to cope with errors. 
+Therefore, care must be taken to avoid typos.
+$
