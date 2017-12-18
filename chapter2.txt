@@ -1,0 +1,39 @@
+CHAPTER2.BASIS OF C PROGRAMMING
+1 main
+Let's look at the code you made on chapter 1
+The main is a function that must be located in the program where the program begins.
+The main consists of a head and body.
+The head shows the name of the function and the required data. 
+At the end of the body,insert return 0; to finish the program.
+~
+CHAPTER2.BASIS OF C PROGRAMMING
+2 ;(semicolon)"
+Mark the end of a sentence by adding a semicolon when you are coding
+ ,as we add a period when writing.
+You must enter a semicolon when you write a sentence.
+~
+CHAPTER2.BASIS OF C PROGRAMMING
+3 annotation
+An annotation is a memo that makes it easy for developers to recognize the use of a code
+Any content between '/*'and'*/'is  ignored.
+After '//', it will be ignored to the end of the line 
+printf("Note that the annotation is ignored when running the program.
+~
+CHAPTER2.BASIS OF C PROGRAMMING
+4 printf
+printf prints the data on the screen.
+Enter 'printf()'and use it to enter \"string to print\" between parentheses.
+When outputting an integer, enter %%d between \"\" and enter integer after \"\"
+printf(\"%%d\",3);"
+Same real number. Use %%f instead of %%d!
+printf(\"%%f\",3.14);"
+~
+CHAPTER2.BASIS OF C PROGRAMMING
+4 printf
+You can also output special control characters.
+\\n  Change the line
+\\t  Tap
+\\r  Carriage return
+\\b  Backspace
+\\a  Alert
+$
