@@ -1,0 +1,86 @@
+CHAPTER5. CHOICE STATEMENT //pg.1
+
+5.1 IF STATEMENT
+
+If you write an if statement, you can pick a statement to execute according to the condition.
+
+(1) Basic form of if statement
+if(Conditional expression)    choice statement;
+if conditional is true, execute statement. If false, do nothing
+
+if (a>10)   ->conditional expression 
+{ 
+     b=a        ->Execution Statement
+} 
+
+If the sentence to be executed is two or more sentences, it must be enclosed in curly braces.
+~
+(2) if ~ else statement   //pg.2
+The if ~ else statement is used when you must choose one or the other
+
+if(a>=0)    ->conditional expression
+{
+    a=1;    ->execution Statement1
+} 
+else 
+{ 
+    a=-1;    ->execution Statement2 
+}
+
+The conditional is not used in the if-else statement else.
+~
+(3) if ~ else if ~ else statement   //pg.3
+If you must select one of three or more statements, use an if ~ else if ~ else statement.
+
+if(a>0)      ->Conditional expression1
+{ 
+    b=1      ->Execution Statement1
+} 
+else if(a==0) ->Conditional expression2
+{ 
+    b=2;      ->Execution Statement2 
+} 
+else
+{ 
+    b+3;      ->Execution Statement3
+} 
+
+If the sentence to run under each condition is more than two sentences, enclose it with curly brackets.
+The result of the previous condition is reflected because it checks the conditional expression in order.
+~
+5.2 Use of if statement and switch ~ case statement   //pg.4
+
+Overlaying an if statement
+
+if(a>10)    ->Conditional expression 
+{ 
+    if(b>=0)  -Execution Statement
+    { 
+        b=1;
+    } 
+    else
+    {
+        b=-1; 
+    } 
+}
+~
+SWITCH ~ CASE STATEMENT    //pg.5
+
+switch(conditional expression
+{ 
+    case invariable 1: 
+        execution statement 1; 
+        break;
+    case invariable 2:
+        execution statement 2;
+        break;"); 
+    default:
+        execution statement;
+        break; 
+} 
+
+Conditional expressions use only integer expressions, and the case involves break.
+If there is no case invariable that matches the conditional expression, it skips to default.
+'break' can be omitted if necessary.
+The switch ~ case statement can sometimes be replaced with an if statement to achieve the same result.
+$
